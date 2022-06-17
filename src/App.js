@@ -19,6 +19,7 @@ export default function App() {
       <div className="flex">
         <ControlButton onClick={incrementCounter} innerText="+" />
         <ControlButton onClick={decrementCounter} innerText="-" />
+        <button className="button">Test button in App.js</button>
       </div>
     </div>
   );

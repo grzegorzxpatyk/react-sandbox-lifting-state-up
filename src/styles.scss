@@ -10,6 +10,7 @@ button {
   font-size: 2rem;
   border-radius: 1rem;
   width: 5rem;
+  min-width: fit-content;
 
   &:hover {
     background: #cccccc;
@@ -19,6 +20,10 @@ button {
     background: #bbb;
     transform: translate(0, 2px) scale(.98);
   }
+}
+
+.button {
+  background: blue;
 }
 
 .flex {
